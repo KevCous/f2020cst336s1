@@ -21,6 +21,10 @@ td strong {
 	background-color: #351a00;
 }
 
+.welcomeText {
+	text-align: left;
+}
+
 .table-row {
 	background-color: #753900;
 }
@@ -38,4 +42,9 @@ h1 {
 	font-family: 'Roboto', cursive;
 	font-size: 4em;
 	margin-bottom: 0px;
+}
+
+footer {
+	color: gray;
+	font-size: 0.9em;
 }
