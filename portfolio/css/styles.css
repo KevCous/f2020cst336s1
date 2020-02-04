@@ -33,7 +33,7 @@ td strong {
 	background-color: #351a00;
 }
 
-.welcomeText {
+#welcomeText {
 	text-align: left;
 }
 
@@ -44,6 +44,10 @@ td strong {
 #curr {
 	border-bottom:2px orange solid;
 	font-size: 2em;
+}
+
+#content {
+	text-align: center;
 }
 
 ul {
