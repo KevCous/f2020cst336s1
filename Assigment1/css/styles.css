@@ -1,0 +1,42 @@
+header, nav, footer {
+	text-align: center;
+}
+
+nav a {
+	padding:15px;
+	padding-bottom: 4px;
+	font-size: 1.8em;
+	text-decoration: none;
+	color:black;
+}
+
+nav a:hover {
+	border-bottom:2px blue solid;
+	font-size: 2em;
+	transition: .9s;
+}
+
+#curr {
+	border-bottom:2px blue solid;
+	font-size: 2em;
+}
+
+
+footer {
+	color: gray;
+	font-size: 0.9em;
+}
+
+.HelloWorld {
+    background-color: lightgray;
+    border-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+}
+
+#logo {
+    float: left;
+    overflow: auto;
+    clear: left;
+}
