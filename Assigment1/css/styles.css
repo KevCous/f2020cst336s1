@@ -2,6 +2,10 @@ header, nav, footer {
 	text-align: center;
 }
 
+hr {
+	width: 50%;
+}
+
 nav a {
 	padding:15px;
 	padding-bottom: 4px;
