@@ -79,7 +79,9 @@
                         $("#totalScore").css("background-color", "red");
                     } else {
                         $("#totalScore").css("background-color", "green");
-                        $("#congrats").html("Congratulation");
+                        
+                        if (score == 100)
+                            $("#congrats").html("Congratulation");
                         
                     }
                     score = 0;
