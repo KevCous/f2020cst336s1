@@ -1,4 +1,7 @@
 {
+    "general": {
+        "@stripws": true
+    },
     "instance": {
         "@automaticShutdown": "30"
     },

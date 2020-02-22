@@ -1,0 +1,43 @@
+h1 {
+    margin-left: 1%;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+header {
+    background-color: darkgrey;
+    text-align: justify;
+}
+
+body {
+    color: black;
+    background-color: white;
+    text-align: justify;
+}
+
+a {
+    font-size: 14;
+    float: right;
+    text-align: center;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+small {
+    color: grey;
+    margin: 2px;
+}
+
+.card {
+    width: auto;
+    text-align: justify;
+    background-color: white;
+}
+
+#errorDisplay {
+    color: red;
+    margin: 5px;
+}
