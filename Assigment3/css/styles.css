@@ -1,0 +1,41 @@
+h1 {
+	margin-left: 1%;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+header {
+	background-color: darkgrey;
+	text-align: justify;
+}
+
+body {
+	color: black;
+	background-color: white;
+	text-align: justify;
+}
+
+button {
+	background-color: grey;
+	color: white;
+}
+
+.card {
+	width: auto;
+	height: auto;
+	padding: 2px;
+	background-color: #e7e7e7;
+	text-align: center;
+}
+
+.card .card-text {
+	width: auto;
+	height: 80%;
+	text-align: justify;
+	overflow: auto;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
