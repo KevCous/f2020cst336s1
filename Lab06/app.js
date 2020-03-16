@@ -12,9 +12,13 @@ app.get('/mercury', function(req, res) {
 });
 
 app.get('/venus', function(req, res) {
-	res.send('This will be Venus web page!');
+	res.render('venus.html');
 });
 
-app.listen(process.env.PORT, process.env.IP, function() {
+app.get('/earth', function(req, res) {
+	res.render('earth.html');
+});
+
+app.listen(process.env.PORT || 8081, process.env.IP, function() {
 	console.log('Express Server is Running...');
 });
